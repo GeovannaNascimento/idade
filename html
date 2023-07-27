@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="idade.css" type='text/css'>
+
+</head>
+<script src="./idade.js"></script>
+
+<body>
+    <header>
+        <h1 class="titulo"> Fases da Vida Humana </h1>
+    </header>
+
+    <div>
+        <h3 id="descExercicio">
+            Criança - até 11 anos de idade;<br>
+            Adolescente - dos 12 até 20 anos de idade;<br>
+            Adulto - dos 21 até 65 anos de idade;<br>
+            Idoso - 66 anos ou mais;<br>
+        </h3>
+    </div>
+
+    <form onsubmit="return verificar(event)">
+        <input type="text" placeholder="Nome" id="nome"><br><br>
+
+        <input type="number" placeholder="Idade" id="idade"><br><br>
+
+        <input id="botao" type="submit" value="Verificar">
+
+        <div id="resultado"> </div>
+
+    </form>
+
+    <div class="rectangle"></div>
+
+
+</body>
+
+</html>
